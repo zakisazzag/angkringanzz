@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ANGKRINGAN ZZ</title>
+  <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+<body>
+  <header class="fade-in-section">
+    <h1>ANGKRINGAN ZZ</h1>
+    <nav>
+      <a href="#layanan">Menu Makanan</a>
+      <a href="#keranjang">Pesan</a>
+      <a href="#lokasi">Lokasi</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section Beranda -->
+    <section class="beranda fade-in-section">
+      <img src="./img/home.jpg.webp"Gambar Bengkel" />
+      <h2>ANGKRINGAN ZZ MENJUAL BERBAGAI MACAM ANGKRINGAN BISA MAKAN DI TEMPAT <br> RASA TIDAK MENGECEWAKAN</h2>
+    </section>
+
+    <!-- Section Layanan -->
+    <section id="layanan" class="fade-in-section">
+      <h2>Menu Makanan</h2>
+      <div class="layanan-grid">
+        <div class="layanan-item" data-nama="Tempe" data-harga="2000">
+          <img src="./img/tempe.jpg.jpg" />
+          <p>Tempe</p>
+          <span class="harga">Rp 2.000</span>
+          <button class="tambah-keranjang">Tambah ke Keranjang</button>
+        </div>
+        <div class="layanan-item" data-nama="Tahu" data-harga="2000">
+          <img src="./img/tahu.jpg.webp" />
+          <p>Tahu</p>
+          <span class="harga">Rp 2.000</span>
+          <button class="tambah-keranjang">Tambah ke Keranjang</button>
+        </div>
+         <div class="layanan-item" data-nama="Tahu" data-harga="2000">
+          <img src="./img/tahu.jpg.webp" />
+          <p>Tahu</p>
+          <span class="harga">Rp 2.000</span>
+          <button class="tambah-keranjang">Tambah ke Keranjang</button>
+        </div>
+         <div class="layanan-item" data-nama="Tahu" data-harga="2000">
+          <img src="./img/tahu.jpg.webp" />
+          <p>Tahu</p>
+          <span class="harga">Rp 2.000</span>
+          <button class="tambah-keranjang">Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <div class="layanan-grid">
+        <div class="layanan-item" data-nama="Tempe" data-harga="2000">
+          <img src="./img/tempe.jpg.jpg" />
+          <p>Tempe</p>
+          <span class="harga">Rp 2.000</span>
+          <button class="tambah-keranjang">Tambah ke Keranjang</button>
+        </div>
+        <div class="layanan-item" data-nama="Tahu" data-harga="2000">
+          <img src="./img/tahu.jpg.webp" />
+          <p>Tahu</p>
+          <span class="harga">Rp 2.000</span>
+          <button class="tambah-keranjang">Tambah ke Keranjang</button>
+        </div>
+         <div class="layanan-item" data-nama="Tahu" data-harga="2000">
+          <img src="./img/tahu.jpg.webp" />
+          <p>Tahu</p>
+          <span class="harga">Rp 2.000</span>
+          <button class="tambah-keranjang">Tambah ke Keranjang</button>
+        </div>
+         <div class="layanan-item" data-nama="Tahu" data-harga="2000">
+          <img src="./img/tahu.jpg.webp" />
+          <p>Tahu</p>
+          <span class="harga">Rp 2.000</span>
+          <button class="tambah-keranjang">Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <!-- Keranjang dipindahkan ke bawah menu layanan -->
+      <div id="keranjang" class="keranjang-section">
+        <h3>Keranjang</h3>
+        <ul id="keranjang-list"></ul>
+        <div id="keranjang-total"></div>
+        <button id="beli-btn">Beli</button>
+        <button id="batal-btn" style="margin-left:10px;background:#a1887f;color:#fff;border:none;border-radius:8px;padding:10px 24px;font-weight:bold;cursor:pointer;transition:background 0.2s;">Batal</button>
+      </div>
+    </section>
+
+    <!-- Section Lokasi -->
+    <section id="lokasi" class="fade-in-section">
+      <div class="lokasi-content">
+        <h2>Lokasi & Kontak</h2>
+        <a class="whatsapp-btn" href="https://wa.me/6281234567890?text=Halo%2C%20saya%20mau%20tanya%20jadwal%20servis.." target="_blank">Hubungi via WhatsApp</a>
+        <p>Alamat: Jl. Mawar No. 123, Amuntai Tengah, Kalimantan Selatan</p>
+        <p>Jam Buka: Senin - Sabtu, 08.00 - 17.00</p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps?q=Jl.+Mawar+No.+123,+Amuntai+Tengah,+Kalimantan+Selatan&output=embed" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal untuk gambar layanan -->
+  <div id="layanan-modal" class="layanan-modal">
+    <div class="layanan-modal-content">
+      <span class="layanan-modal-close">&times;</span>
+      <img id="modal-img" src="" alt="Gambar Menu" />
+      <p id="modal-info"></p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 ANGKRINGAN ZZ
+  </footer>
+
+  <script src="./JS/script.js"></script>
+</body>
+</html>
