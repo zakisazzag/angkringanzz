@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const keranjangTotal = document.getElementById("keranjang-total");
   const beliBtn = document.getElementById("beli-btn");
   const batalBtn = document.getElementById("batal-btn");
-  const nomorWA = "6285754304947";
+  const nomorWA = "6282192144802";
 
   function updateKeranjang() {
     keranjangList.innerHTML = "";
@@ -122,4 +122,5 @@ document.addEventListener("DOMContentLoaded", function () {
     keranjang.length = 0; // kosongkan array keranjang
     updateKeranjang();
   });
+
 });
